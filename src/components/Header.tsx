@@ -29,6 +29,7 @@ const Header = () => {
           <li><Link href={"/"} onClick={closeMenu}>Home</Link></li>
           <li><Link href={"/about"} onClick={closeMenu}>About</Link></li>
           <li><Link href={"/menu"} onClick={closeMenu}>Menu</Link></li>
+          <li><Link href={"/blogs"} onClick={closeMenu}>Blogs</Link></li>
           <li><Link href={"/contact"} onClick={closeMenu}>Contact</Link></li>
         </ul>
       </nav>
