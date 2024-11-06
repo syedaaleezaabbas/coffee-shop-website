@@ -15,17 +15,18 @@ body {
     text-align: center;
 }
 
-.our-title {
+.first-word {
     font-size: 3rem;
     font-weight: bold;
     color: #ffffff;
     margin-right: 10px;
 }
 
-.menu-title {
+.second-word {
     font-size: 3rem;
     font-weight: bold;
     color: #d3a57a;
+    margin-bottom: 0;
 }
 
 .menu-container {
@@ -89,10 +90,6 @@ button {
 }
 
 @media(max-width: 1024px) {
-    .menu {
-        padding: 2rem;
-    }
-
     .menu-item {
         flex-basis: calc(50% - 2rem);
     }

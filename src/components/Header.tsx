@@ -9,7 +9,7 @@ import "../css-files/header.css"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -34,12 +34,12 @@ const Header = () => {
         </ul>
       </nav>
 
-      {/* haburger icon */}
+      {/* hamburger icon */}
       <div className='hamburger' onClick={toggleMenu}>
         {menuOpen ? <IoClose size={30} /> : <IoMenu size={30} />}
       </div>
 
-      <div className='icon-container'>
+      <div>
         <IoCartOutline className='icon' />
       </div>
     </header>

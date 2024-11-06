@@ -32,7 +32,7 @@ body {
 
 .nav-list {
     font-size: 1rem;
-    list-style: none;
+    list-style-type: none;
     display: flex;
     gap: 3rem;
 }
@@ -40,11 +40,6 @@ body {
 .nav-list li a:hover {
     color: #d3a57a;
     text-decoration: underline;
-}
-
-.icon-container {
-    display: flex;
-    align-items: center;
 }
 
 .icon {

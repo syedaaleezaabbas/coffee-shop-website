@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-.about-title {
+.first-word {
     font-size: 3rem;
     font-weight: bold;
     color: #d3a57a;
@@ -23,10 +23,11 @@ body {
     margin-right: 10px;
 }
 
-.us-title {
+.second-word {
     font-size: 3rem;
     font-weight: bold;
     color: #ffffff;
+    margin-bottom: 0;
 }
 
 .about-content {
@@ -79,7 +80,6 @@ body {
 
     .about-content {
         flex-direction: column;
-        align-items: stretch;
     }
 
     .about-content img {

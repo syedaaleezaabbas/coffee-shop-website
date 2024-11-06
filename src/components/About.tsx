@@ -6,8 +6,8 @@ const About = () => {
   return (
     <section className='about'>
       <h2>
-        <span className='about-title'>ABOUT</span>
-        <span className='us-title'>US</span>
+        <span className='first-word'>ABOUT</span>
+        <span className='second-word'>US</span>
       </h2>
 
       <div className='about-content'>

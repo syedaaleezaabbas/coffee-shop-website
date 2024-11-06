@@ -6,8 +6,8 @@ const Menu = () => {
     return (
         <section className='menu'>
             <h2>
-                <span className='our-title'>Our</span>
-                <span className='menu-title'>Menu</span>
+                <span className='first-word'>Our</span>
+                <span className='second-word'>Menu</span>
             </h2>
 
             <div className='menu-container'>
