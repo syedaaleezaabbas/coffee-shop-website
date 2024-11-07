@@ -30,7 +30,7 @@ const Contact = () => {
           <input type="text" placeholder='Mobile Number' className='input-field' />
         </div>
 
-        <button className='contact-button'>Contact Now</button>
+        <button className='contact-button'>Send Message</button>
       </div>
     </section>
   )
