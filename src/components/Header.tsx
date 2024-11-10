@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='logo'>
-        <Image src="/images/logo.jpeg" alt='coffee shop logo' width={70} height={70} objectFit='cover' />
+        <h1>coffep Shop</h1>
       </div>
 
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>

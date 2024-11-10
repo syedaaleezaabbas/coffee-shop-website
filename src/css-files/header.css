@@ -21,8 +21,9 @@ body {
 }
 
 .logo {
-    height: 70px;
-    width: 70px;
+    font-size: 3rem;
+    color: #d3a57a;
+    font-family: "Dancing Script", cursive;
 }
 
 .nav {
