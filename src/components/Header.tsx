@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='logo'>
-        <h1>coffep Shop</h1>
+        <h1>Coffep Shop</h1>
       </div>
 
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
