@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react'
 import Link from "next/link"
-import Image from "next/image"
 import { IoCartOutline } from "react-icons/io5";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
